@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.0964054519 }}/clockbox:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest
